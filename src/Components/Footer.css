@@ -1,0 +1,27 @@
+.main-footer{
+    color:white;
+    background-color: rgb(138, 115, 126);
+    padding-top: 3em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.row{
+    color: white;
+    display:flex;
+}
+
+.col{
+    background-color: rgb(138, 97, 117);
+    border-style:double;
+    margin: 10px;
+    padding: 10px;
+}
+
+.col-sm{
+    background-color:  rgb(180, 150, 164);
+    border-style: double ;
+    margin: 10px;
+    padding: 10px;
+}

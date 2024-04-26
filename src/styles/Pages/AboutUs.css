@@ -1,0 +1,28 @@
+.aboutUsContainer {
+    max-width: 1200px;
+    margin: 0 auto; /* auto margin for centering */
+    padding: 0 20px; /* optional padding for some space inside the container */
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .textContainer {
+    /* Adjust the width as needed */
+    flex: 1;
+  }
+  
+  .logos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; /* This will space the logos evenly vertically */
+    align-items: center; /* This will center the logos horizontally */
+    padding: 0 20px; /* Adjust padding as needed */
+    /* Adjust the width as needed */
+    flex: 0.3;
+  }
+  
+  .logos img {
+    /* Adjust the width of images as needed */
+    width: 100px; /* example size */
+    margin-bottom: 20px; /* Space between logos */
+  }
